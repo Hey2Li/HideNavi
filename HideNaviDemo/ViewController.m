@@ -25,7 +25,7 @@
     myTableView.backgroundColor = [UIColor lightGrayColor];
     myTableView.delegate = self;
     myTableView.dataSource = self;
-    
+    //添加KVO
     [self HideNavi];
 }
 
