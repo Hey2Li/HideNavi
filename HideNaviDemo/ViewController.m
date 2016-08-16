@@ -83,7 +83,7 @@
         [self.navigationController setNavigationBarHidden:_isHide animated:YES];
     }
 }
-- (void)viewDidDisappear:(BOOL)animated{
+- (void)dealloc{
     [myTableView removeObserver:self forKeyPath:@"contentOffset"];
 }
 - (void)didReceiveMemoryWarning {
